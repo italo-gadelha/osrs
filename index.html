@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1><img src="./image/RuneScape_2_logo.png" alt="RuneScape_2_logo" id="idrslogo"></h1>
+
+    <div id="loginin">
+        <p id="pinstrucao">Enter your username/email & password.</p>
+        <form action="">
+            <label for="ilogin">Login: </label>
+            <input type="text" id="ilogin" name="login"><br>
+            <label for="ipassword">Password: </label>
+            <input type="password" id="ipassword" name="password"><br>
+            <input type="checkbox" id="remember" name="remember" value="remember">
+            <label for="remember" id="lremember"> Remember user</label><br>
+            <a href="#" class="btn">Login</a>
+            <a href="#" class="btn">Cancel</a><br>
+            <a href="https://support.runescape.com/hc/en-gb/articles/360001552065" target="_blank" id="clickhere">Cant't login?Click here.</a>
+        </form>
+        <footer>
+            <button id="musicabt" onclick="toggleMute()" type="button"></button>
+        </footer>
+    </div>
+    <audio autoplay="true" id="rsSound" src="./audio/RuneScape old Theme (128 kbps).mp3">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+            </script>
+        <script src="soundcontrol.js"></script>
+
+
+</body>
+
+</html>

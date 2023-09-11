@@ -1,0 +1,102 @@
+@font-face {
+    font-family: RuneBold;
+    src: url(./fonts/ttf/RuneScape-Bold-12.ttf);
+}
+@font-face {
+    font-family: RunePlain;
+    src: url(./fonts/ttf/RuneScape-Plain-12.ttf);
+}
+
+
+body {
+    background: url(./image/Login_background_\(default\).jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-color: black;
+    
+}
+
+#maindiv {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+
+div {
+    padding: 10px;
+}
+h1 {
+    text-align: center;
+}
+input {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+#pinstrucao {
+    color: yellow;
+}
+#idrslogo{
+    text-align: center;
+    width: 450px;
+}
+p{
+    text-align: center;
+    font-family: 'RuneBold';
+}
+
+#loginin{
+    background-image: url(./image/pedra.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 3%;
+    width: 372px;
+    height: 208px;
+    color: white;
+    font-family: 'RuneBold';
+    font-size: 16px;
+
+}
+#lremember{
+    font-family: 'RunePlain';
+    color: yellow;
+    font-size: 14px;
+}
+#clickhere{
+    color: white;
+    font-family: 'RunePlain';
+    text-decoration: none;
+}
+
+.btn {
+    background-image: url(./image/botao.jpg);
+    width: 148px;
+    height: 44px;
+    color: white;
+}
+input{
+    text-align: left;
+    color: white;
+}
+footer {
+    margin-top: 25%;
+}
+#musicabt{
+    background-image: url(./image/audioon.png);
+    background-size: cover;
+    border-radius: 25%;
+    width: 36px;
+    height: 36px;
+    margin-left: 100%;
+}
+#musicabt:hover{
+    background-image: url(./image/off.png);
+    background-size: cover;
+}
