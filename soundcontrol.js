@@ -1,5 +1,14 @@
 
-function toggleMute() {
-    var myAudio = document.getElementById('rsSound');
-    myAudio.muted = !myAudio.muted;
- }
+var myAudio = document.getElementById('rsSound');
+var isPlaying = false;
+
+function togglePlay() {
+    
+    isPlaying ? myAudio.pause() : myAudio.play();
+}
+myAudio.onplaying = function() {
+    isPlaying = true;
+  };
+  myAudio.onpause = function() {
+    isPlaying = false;
+  };
